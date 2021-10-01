@@ -1,0 +1,18 @@
+.concept {
+  width: 100%;
+  &__text {
+    width: 80%;
+    padding-top: 70px;
+    margin-left: 100px;
+    & > p {
+      letter-spacing: 0.4em;
+    }
+  }
+}
+.menues {
+  &__img {
+    &:nth-child(1) {
+      top: 150px;
+    }
+  }
+}

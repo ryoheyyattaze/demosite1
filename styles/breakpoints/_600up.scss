@@ -1,0 +1,117 @@
+.header {
+  &__btn {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  &__inner {
+    opacity: 1;
+    visibility: visible;
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  &__ul {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.main {
+  margin-top: 100px;
+  &__visual {
+    &__inner {
+      & > h1 {
+        font-size: 48px;
+        font-weight: 600;
+        &:nth-child(2) {
+          font-size: 60px;
+        }
+      }
+    }
+  }
+}
+
+.concept {
+  margin-top: 200px;
+  display: inline-block;
+  text-align: center;
+  &__title {
+    margin-bottom: 30px;
+    &.inview {
+      & .char {
+        font-size: 48px;
+      }
+    }
+  }
+  &__wrapper {
+    & img {
+      margin-bottom: 70px;
+    }
+  }
+  &__text {
+    & > p {
+      font-size: 24px;
+    }
+  }
+}
+
+.menues {
+  margin-top: 200px;
+  display: inline-block;
+  text-align: center;
+  &__title {
+    margin-bottom: 30px;
+    &.inview {
+      & .char {
+        font-size: 48px;
+      }
+    }
+  }
+  &__item {
+    flex-basis: 70%;
+  }
+  &__img {
+    &:nth-child(1) {
+      top: 80px;
+    }
+    &:nth-child(2) {
+      top: 350px;
+    }
+    &:nth-child(3) {
+      top: 0;
+    }
+  }
+  &__text {
+    flex-basis: 20%;
+  }
+}
+
+.store {
+  margin-top: 200px;
+  display: inline-block;
+  text-align: center;
+  &__title {
+    margin-bottom: 30px;
+    &.inview {
+      & .char {
+        font-size: 48px;
+      }
+    }
+  }
+&__wrapper {
+  & > .map {
+    height: 500px;
+  }
+}
+&__text {
+  & > .main-title {
+    font-size: 32px;
+  }
+  & > .sub-title {
+    font-size: 24px;
+  }
+}
+}

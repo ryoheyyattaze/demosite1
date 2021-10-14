@@ -1,107 +1,14 @@
-.main {
-  &__visual {
-    width: 80%;
-    margin: 0 auto;
-    height: 100%;
-    display: flex;
-    flex-direction: row-reverse;
-    & > img {
-      flex-basis: 40%;
-      height: 100%;
-    }
-    &__inner {
-      flex-basis: 60%;
-      height: 100%;
-      margin: auto;
-      & > h1 {
-        font-size: 56px;
-        &:nth-child(2) {
-          font-size: 72px;
-        }
-      }
-    }
-  }
-}
-
-.concept {
+.mobile_menu {
   width: 100%;
-  &__title {
-    margin-bottom: 100px;
-    & .char {
-      font-size: 32px;
-    }
-  }
-  &__wrapper {
-    width: 100%;
-    height: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-
-    & img {
-      flex-basis: 45%;
-      height: 60%;
-      margin: auto;
-    }
-  }
-  &__text {
+  &__cover {
     width: 80%;
-    height: 45%;
-    margin: auto;
-    margin-left: 40px;
+  }
+  &__ul {
+    width: 20%;
+  }
+  &__li {
+    margin: 0 auto 50px;
+    font-size: 36px;
   }
 }
 
-.menues {
-  &__title {
-    margin-bottom: 100px;
-    & .char {
-      font-size: 32px;
-    }
-  }
-  &__wrapper {
-    flex-direction: row-reverse;
-    height: 80%;
-    justify-content: space-between;
-  }
-  &__item {
-    flex-basis: 50%;
-  }
-  &__img {
-    &:nth-child(1) {
-      width: 45%;
-      top: 250px;
-      right: 0;
-    }
-    &:nth-child(2) {
-      width: 85%;
-      top: 450px;
-    }
-    &:nth-child(3) {
-      width: 45%;
-      top: 120px;
-    }
-  }
-  &__text {
-    flex-basis: 45%;
-    height: 60%;
-    margin: auto 0;
-  }
-  &__dl {
-    width: 100%;
-    flex-wrap: wrap;
-    & > dt {
-      flex-basis: 65%;
-    }
-    & > dd {
-      flex-basis: 35%;
-    }
-  }
-}
-
-.store {
-  &__text {
-    & > .sub-title {
-      margin-bottom: 50px;
-    }
-  }
-}
